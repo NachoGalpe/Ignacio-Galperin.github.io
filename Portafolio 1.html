@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="Logo IG.jpg">
+    <title>Portfolio Ignacio</title>
+    <link rel="stylesheet" href="PortafolioWeb.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">I.GALPERIN</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <div></div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="Foto de perifl - Portafolio.jpeg" alt="Foto de Perfil">
+            </div>
+            <h1>Ignacio Galperin</h1>
+            <h2>Ingeniero Industrial - Universidad Tecnlogia Nacional</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/nachogalpe/"> <i class="fa-brands fa-instagram" ></i></a>
+                <a href="https://twitter.com/nachogalpe"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/ignacio-galperin-940338210/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Ignacio Galperin.</span> Busco aplicar los conocimientos adquiridos en los años de estudio, así como mi capacidad de planificación, organización y dirección del funcionamiento de la empresa. Tengo una actitud para liderar cualquier tipo de equipo, me llevo por el respeto y responsabilidad como principales valores.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            02/03/2004
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            11 3437-1569
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            nachogalpe@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Gascon 1565, Capital Federal, Argentina
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="Curriculum Ignacio Galperin.pdf" download="Curriculum_Ignacio_Galperin.pdf">
+                    Descargar CV 
+                    <i class="Curriculum Ignacio Galperin"></i>
+                    <span class="overlay"></span>
+                </a>
+            </button>
+        </div>
+    </section> 
+    <!-- PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion"></div>
+         <h2>Proyectos</h2>
+
+        </div>
+    </section>  
+    <!-- MAS DATOS DEL CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion"></div>
+         <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Secundario</h4>
+                        <span class="casa">Colegio Benito Nazar</span>
+                        <span clas="datos"> Bachillerato en Economia </span>
+                        <span class="fecha">2005 - 2021</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Universitario</h4>
+                        <span class="casa">Universidad Tecnologica Nacional (UTN) </span>
+                        <span class="datos"> Segundo año en Ingenieria Industrial </span>
+                        <span class="fecha">2022 - Hasta la fecha </span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia laboral</h3>
+                    <div class="item der">
+                        <h4> Free Lance</h4>
+                        <span class="casa">Venta de productos tecnlogicos</span>
+                        <span class="datos"> - </span>
+                        <span class="fecha">2022 - Hasta la fecha</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Compra y venta de indumentaria</h4>
+                        <span class="casa">Canguruu</span>
+                        <span class="datos"> - </span>
+                        <span class="fecha">2020 - 2022</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre" required>
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo" required >
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Capital Federal, Buenos Aires, Argentina.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                11 3437-1569
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: nachogalpe@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/nachogalpe/"> <i class="fa-brands fa-instagram" ></i></a>
+            <a href="https://twitter.com/nachogalpe"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/ignacio-galperin-940338210/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="PortafolioWeb.java"></script>
+</body>
+</html>
